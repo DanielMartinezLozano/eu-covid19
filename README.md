@@ -7,7 +7,9 @@ Its deployment is available both in [heroku](http://coteam19-02.herokuapp.com/) 
 ### Technology
 
 The app was created using JavaScript, with the React framework and with Flux.\
+
 Every function created is fully tested with NodeJS and Jest. \
+
 It also has some components built with Bootstrap, Material Design and jQuery.
 
 ## Authors

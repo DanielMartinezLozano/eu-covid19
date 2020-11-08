@@ -1,6 +1,6 @@
 # EU-COVID19 App
 
-This single page app was a 7 days project created by Eric Martinez, Francisco Ximenes and me (GitHub profiles below).
+This single page app was a 7 days project created by Eric Martinez, Francisco Ximenes and me (Daniel Martinez). GitHub profiles available below.
 
 Its deployment is available both in [heroku](http://coteam19-02.herokuapp.com/) and in [firebase](https://eu-covid19.web.app/).
 

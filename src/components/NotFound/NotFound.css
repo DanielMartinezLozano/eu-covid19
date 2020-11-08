@@ -1,0 +1,38 @@
+#main_elements {
+	margin-top: 50px;
+	color: white;
+}
+
+#banner-btn {
+	background-color: #ebedf0;
+	border: none;
+	color: #1c1e21;
+	padding: 10px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 20px;
+	border-radius: 4px;
+	cursor: pointer;
+	outline: none;
+	font-weight: 500;
+	margin: 20px 30px 60px;
+	box-shadow: 0.2px 0.2px 2px #0c0c0c;
+	width: 200px;
+}
+
+#banner-btn:hover {
+	background-color: rgb(153, 151, 151);
+	color: white;
+}
+
+#notFound_img {
+	width: 40%;
+	margin-bottom: 40px;
+}
+
+#notFound_elements {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}

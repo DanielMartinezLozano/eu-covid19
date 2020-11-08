@@ -1,0 +1,69 @@
+.body {
+	margin: 0;
+}
+
+.body__title {
+	color: white;
+	background-color: #ed1b24;
+	margin: 0;
+	padding: 108px 40px 40px;
+	font-size: 45px;
+	text-shadow: 0.3px 0.3px 2px #0c0c0c;
+}
+
+.body__wrapper {
+	margin: 0 3%;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+}
+
+.wrapper__ul {
+	display: flex;
+	flex-wrap: wrap;
+	margin-left: 30px;
+	padding: 20px 0px;
+}
+
+.ul__item:hover {
+	background-color: #ed1b24;
+}
+
+.wrapper__ul a {
+	text-decoration: none;
+	color: white;
+	width: 22%;
+	margin: 10px;
+	text-decoration: none;
+	list-style-type: none;
+	border-radius: 4px;
+	padding: 10px;
+	background-color: rgb(153, 151, 151);
+	box-shadow: 1px 1px 3px rgb(153, 151, 151);
+	font-weight: 500;
+	font-size: 20px;
+	text-align: center;
+	text-shadow: 0.3px 0.3px 2px #0c0c0c;
+	min-width: 95px;
+}
+
+.wrapper__ul a:hover {
+	background-color: #ed1b24;
+}
+
+@media screen and (max-width: 670px) {
+	.wrapper__ul a {
+		font-size: 14px;
+	}
+}
+
+.wrapper__back-btn {
+	padding-top: 0px;
+}
+.wrapper__back-btn a {
+	background-color: #df797e;
+	color: rgb(255, 255, 255);
+}
+.wrapper__back-btn a:hover {
+	background-color: #ed1b24;
+}

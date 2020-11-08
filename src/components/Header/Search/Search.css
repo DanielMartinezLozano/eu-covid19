@@ -1,0 +1,119 @@
+#inputSearch {
+	display: block;
+	margin-right: 20px;
+	width: 180px;
+	height: 35px;
+	padding: 0 5px 0 30px;
+	background-color: rgb(235, 235, 235);
+	border: 1px solid gray;
+	border-radius: 20px;
+	outline: none;
+	background-image: url('https://cdn2.iconfinder.com/data/icons/font-awesome/1792/search-512.png');
+	background-position: 8px 8px;
+	background-repeat: no-repeat;
+	background-size: 10%;
+}
+
+#inputSearch:focus {
+	background-color: rgb(219, 219, 219);
+}
+
+#inputSearch:focus + .dropdown_wrapper {
+	display: block;
+}
+
+.dropdown_wrapper:hover {
+	display: block;
+}
+
+.dropdown_wrapper {
+	display: none;
+	animation-delay: 0.1s;
+}
+.dropdown_wrapper {
+	position: absolute;
+	background-color: white;
+	border-radius: 5px;
+	width: 150px;
+	list-style-type: none;
+	right: 35px;
+	top: 50px;
+	padding-left: 5px;
+	box-shadow: 1px 1px 5px #0c0c0c;
+	z-index: 10000;
+}
+
+.dropdown-ul__item {
+	font-size: 18px;
+	text-transform: capitalize;
+	padding: 10px;
+}
+
+.dropdown-ul__item:active {
+	text-decoration: none;
+}
+
+.dropdown_wrapper a {
+	text-decoration: none;
+	color: black;
+}
+
+.dropdown_wrapper a:hover {
+	background-color: white;
+	color: #ed1b24;
+}
+
+#searchButton {
+	display: none;
+}
+
+@media screen and (max-width: 996px) {
+	#search__elements {
+		display: flex;
+		flex-direction: column;
+		align-items: flex-end;
+		margin-top: 0;
+	}
+	#inputSearch {
+		position: absolute;
+		top: 50px;
+		padding-top: 10px;
+		display: none;
+		background-image: none;
+		font-size: 18px;
+		padding: 10px;
+		border-radius: 0;
+		border: 1px solid #0c0c0c;
+		box-shadow: 1px 1px 5px #0c0c0c;
+		margin-right: 0;
+	}
+
+	#inputSearch:not(:focus) {
+		display: none;
+	}
+
+	.dropdown_wrapper {
+		top: 86px;
+		right: 0;
+		width: 180px;
+	}
+
+	#searchButton {
+		display: block;
+		height: 45px;
+		width: 35px;
+		margin-top: 0;
+		padding-top: 0;
+		border: transparent;
+		background: transparent;
+		background-image: url('https://cdn2.iconfinder.com/data/icons/font-awesome/1792/search-512.png');
+		background-position: 5px 8px;
+		background-repeat: no-repeat;
+		background-size: 70%;
+	}
+
+	#searchButton:focus {
+		background-color: rgb(219, 219, 219);
+		outline: none;
+	}
+}

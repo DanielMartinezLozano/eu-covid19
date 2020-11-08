@@ -1,0 +1,18 @@
+#map-europe {
+	padding-top: 80px;
+	margin-bottom: 30px;
+}
+
+#available {
+	margin-top: 50px;
+	text-align: end;
+	z-index: 1000;
+}
+
+#map-europe a {
+	color: white;
+	text-decoration: none;
+}
+.europe > li {
+	color: white;
+}

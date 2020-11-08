@@ -1,0 +1,37 @@
+.subheader {
+	display: flex;
+	align-items: flex-end;
+	justify-content: space-between;
+	color: white;
+	background-color: #ed1b24;
+	margin: 0;
+	padding: 108px 40px 40px;
+	font-size: 45px;
+	text-shadow: 0.3px 0.3px 2px #0c0c0c;
+	margin-bottom: 20px;
+	min-height: 228px;
+}
+
+.subheader__title {
+	font-size: 40px;
+}
+
+.subheader__flag {
+	display: block;
+	height: 80px;
+	width: 80px;
+	overflow: hidden;
+	border-radius: 50%;
+	border: 1px solid #292929;
+	box-shadow: 0.3px 0.3px 2px #0c0c0c;
+	background-position: center;
+	background-size: cover;
+}
+
+@media screen and (max-width: 375px) {
+	.subheader__flag {
+		height: 50px;
+		width: 50px;
+		margin-bottom: 10px;
+	}
+}

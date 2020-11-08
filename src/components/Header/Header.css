@@ -1,0 +1,186 @@
+.burger-menu {
+	background-color: rgb(38, 38, 38);
+}
+
+.header__app-name {
+	display: flex;
+	align-items: center;
+	text-transform: none;
+	text-decoration: none;
+}
+
+.header__app-name:hover {
+	text-decoration: none;
+	text-emphasis: none;
+	color: black;
+}
+
+header a {
+	color: white;
+}
+
+#header-appname {
+	font-size: 18px;
+	margin-bottom: 0;
+	font-weight: 600;
+	min-width: 150px;
+}
+
+#header-logo {
+	height: 50px;
+	padding: 0 10px 0 10px;
+	margin: 0 0 0 20px;
+}
+
+header {
+	position: fixed;
+	z-index: 10000;
+	display: flex;
+	align-items: center;
+	border-bottom: 1px solid black;
+	box-shadow: 1px 1px 10px black;
+	background-color: white;
+	width: 100%;
+}
+
+.burger-menu {
+	display: none;
+}
+
+.bm-burger-button {
+	display: none;
+}
+
+.burger-menu a {
+	text-decoration: none;
+	padding: 15px;
+}
+
+.burger-menu a:hover {
+	color: #ed1b24;
+}
+
+.nav-desktop {
+	display: flex;
+	align-items: center;
+	width: 100%;
+}
+
+.nav-desktop a {
+	color: black;
+	text-decoration: none;
+	padding-right: 15px;
+	margin-left: 30px;
+}
+
+.nav-desktop a:hover {
+	color: #ed1b24;
+}
+
+.google-button {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 35px;
+	width: 195px;
+	margin-right: 10px;
+	border: none;
+	border-radius: 5px;
+}
+
+.google-button:focus {
+	outline: none;
+}
+
+.google-button:hover {
+	background-color: rgb(219, 219, 219);
+}
+
+.google-icon {
+	height: 20px;
+	margin-right: 5px;
+}
+
+#button-mobile {
+	width: 60px;
+	display: none;
+}
+#button-desktop {
+	display: block;
+}
+
+.flex-spacer {
+	flex: 1;
+}
+
+.nav-item-desktop {
+	margin: 20px 0;
+}
+
+.bm-burger-button {
+	position: relative;
+	width: 34px;
+	height: 28px;
+	margin-left: 10px;
+}
+
+.jss1 {
+	width: 40px !important;
+}
+
+/* Color/shape of burger icon bars */
+.bm-burger-bars {
+	background: rgb(38, 38, 38);
+}
+
+/* Color/shape of burger icon bars on hover*/
+.bm-burger-bars-hover {
+	background: #a90000;
+}
+
+/* Position and sizing of clickable cross button */
+.bm-cross-button {
+	height: 24px;
+	width: 24px;
+}
+
+/* Color/shape of close button cross */
+.bm-cross {
+	background: #bdc3c7;
+}
+
+@media screen and (max-width: 996px) {
+	.nav-desktop {
+		display: none !important;
+	}
+	#header-logo {
+		padding: 10px 10px 10px 0px;
+	}
+
+	header {
+		height: 46px;
+		box-shadow: 1px 1px 5px black;
+	}
+	.MuiToolbar-gutters {
+		padding-bottom: 13px !important;
+	}
+
+	.google-button {
+		width: 140px;
+	}
+}
+@media screen and (max-width: 600px) {
+	.MuiToolbar-gutters {
+		padding-bottom: 5px !important;
+	}
+	.google-button {
+		width: 90px;
+	}
+
+	#button-mobile {
+		display: block;
+	}
+	#button-desktop {
+		display: none;
+	}
+}
